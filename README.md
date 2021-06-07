@@ -54,4 +54,6 @@ touch src/cats/cats.module.ts
 
 # auto-validation
 # https://docs.nestjs.com/techniques/validation#auto-validation
+
+# logger: https://docs.nestjs.com/techniques/logger
 ```
