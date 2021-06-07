@@ -63,4 +63,20 @@ npm run test
 
 # -> src/cats/cats.e2e-spec.ts
 npm run test:e2e
+
+# database
+npm install --save @nestjs/typeorm typeorm mysql2
+npm install --save @nestjs/mongoose mongoose
+
+# create schema
+mkdir src/cats/schemas
+touch src/cats/schemas/cat.schema.ts
+
+curl --location --request POST 'http://localhost:3000/cats' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "name": "abc1",
+  "age": 111,
+  "breed": "xxx1"
+}'
 ```
