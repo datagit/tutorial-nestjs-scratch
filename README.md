@@ -56,4 +56,11 @@ touch src/cats/cats.module.ts
 # https://docs.nestjs.com/techniques/validation#auto-validation
 
 # logger: https://docs.nestjs.com/techniques/logger
+
+# testing: https://docs.nestjs.com/fundamentals/testing
+touch src/cats/cats.controller.spec.ts
+npm run test
+
+# -> src/cats/cats.e2e-spec.ts
+npm run test:e2e
 ```
